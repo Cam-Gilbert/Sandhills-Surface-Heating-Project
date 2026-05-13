@@ -1,0 +1,290 @@
+<Granule>
+    <GranuleUR>MOD11A1.A2021165.h11v05.061.2021166091923</GranuleUR>
+    <InsertTime>2021-06-15T04:26:11.383Z</InsertTime>
+    <LastUpdate>2021-06-15T04:28:06.917Z</LastUpdate>
+    <Collection>
+        <ShortName>MOD11A1</ShortName>
+        <VersionId>061</VersionId>
+    </Collection>
+    <DataGranule>
+        <SizeMBDataGranule>3.49421</SizeMBDataGranule>
+        <ReprocessingPlanned>further update is anticipated</ReprocessingPlanned>
+        <ReprocessingActual>reprocessed</ReprocessingActual>
+        <ProducerGranuleId>MOD11A1.A2021165.h11v05.061.2021166091923</ProducerGranuleId>
+        <DayNightFlag>BOTH</DayNightFlag>
+        <ProductionDateTime>2021-06-15T09:19:23.000Z</ProductionDateTime>
+        <LocalVersionId>6.4.4AS</LocalVersionId>
+    <AdditionalFile><Name>BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.1.jpg</Name><SizeInBytes>15281</SizeInBytes><Checksum><Value>7209b73c41eca35f01d409fc684d4b64e65f6ec0f38980ec41687c95fb7990a0</Value><Algorithm>SHA256</Algorithm></Checksum></AdditionalFile><AdditionalFile><Name>MOD11A1.A2021165.h11v05.061.2021166091923.hdf</Name><SizeInBytes>3663949</SizeInBytes><Checksum><Value>6c45b663b9b747f2c973ac600a7234f0deec8aaca7b42bb4d12763946921ffbe</Value><Algorithm>SHA256</Algorithm></Checksum></AdditionalFile><AdditionalFile><Name>BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.2.jpg</Name><SizeInBytes>12220</SizeInBytes><Checksum><Value>0a9688e1070d176c58349698b535c4fea803d0e2ff518bd90e190bf6f9b4552b</Value><Algorithm>SHA256</Algorithm></Checksum></AdditionalFile><AdditionalFile><Name>MOD11A1.A2021165.h11v05.061.2021166091923.hdf_mvs.h5</Name><SizeInBytes>9987089</SizeInBytes><Checksum><Value>61b536a022721bf86090c687673a6c07c60c5f67066273d7977b09443037327d9d94579d6ab9e35200305153fd4284c99e0dfa574973d32a731c92f623f0aa16</Value><Algorithm>sha512</Algorithm></Checksum></AdditionalFile><AdditionalFile><Name>MOD11A1.A2021165.h11v05.061.2021166091923.hdf.dmrpp</Name><SizeInBytes>77325</SizeInBytes><Checksum><Value>4afa5b8fcd6ba6712cc3e91fa89b4eb4600e272671e938caf34f869f0dcb81535d46cc8ad0b87b3ac63dfe7560e2517a0ac76b48f1cd184266a148d110ac8f27</Value><Algorithm>sha512</Algorithm></Checksum></AdditionalFile></DataGranule>
+    <PGEVersionClass>
+        <PGEVersion>6.5.17</PGEVersion>
+    </PGEVersionClass>
+    <Temporal>
+        <RangeDateTime>
+            <BeginningDateTime>2021-06-14T00:00:00.000000Z</BeginningDateTime>
+            <EndingDateTime>2021-06-14T23:59:59.000000Z</EndingDateTime>
+        </RangeDateTime>
+    </Temporal>
+    <Spatial>
+        <HorizontalSpatialDomain>
+            <Geometry>
+                <GPolygon>
+                    <Boundary>
+                        <Point>
+                            <PointLongitude>-91.3839397474365</PointLongitude>
+                            <PointLatitude>39.9958333333333</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-78.329888184268</PointLongitude>
+                            <PointLatitude>39.9958333333333</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-69.2926738917516</PointLongitude>
+                            <PointLatitude>30.0041666666667</PointLatitude>
+                        </Point>
+                        <Point>
+                            <PointLongitude>-80.8406302319072</PointLongitude>
+                            <PointLatitude>30.0041666666667</PointLatitude>
+                        </Point>
+                    </Boundary>
+                </GPolygon>
+            </Geometry>
+        </HorizontalSpatialDomain>
+    </Spatial>
+    <MeasuredParameters>
+        <MeasuredParameter>
+            <ParameterName>MOD 1KM L3 LST</ParameterName>
+            <QAStats>
+                <QAPercentMissingData>0</QAPercentMissingData>
+                <QAPercentOutOfBoundsData>0</QAPercentOutOfBoundsData>
+                <QAPercentInterpolatedData>0</QAPercentInterpolatedData>
+                <QAPercentCloudCover>24</QAPercentCloudCover>
+            </QAStats>
+            <QAFlags>
+                <AutomaticQualityFlag>Passed</AutomaticQualityFlag>
+                <AutomaticQualityFlagExplanation>No automatic quality assessment is performed in the PGE.</AutomaticQualityFlagExplanation>
+                <OperationalQualityFlag>Passed</OperationalQualityFlag>
+                <OperationalQualityFlagExplanation>Passed</OperationalQualityFlagExplanation>
+                <ScienceQualityFlag>Not Investigated</ScienceQualityFlag>
+                <ScienceQualityFlagExplanation>See https://landweb.modaps.eosdis.nasa.gov/cgi-bin/QA_WWW/qaFlagPage.cgi?sat=terra&amp;ver=C6 for the product Science Quality status.</ScienceQualityFlagExplanation>
+            </QAFlags>
+        </MeasuredParameter>
+    </MeasuredParameters>
+    <Platforms>
+        <Platform>
+            <ShortName>Terra</ShortName>
+            <Instruments>
+                <Instrument>
+                    <ShortName>MODIS</ShortName>
+                </Instrument>
+            </Instruments>
+        </Platform>
+    </Platforms>
+    <Campaigns>
+        <Campaign>
+            <ShortName>TERRA</ShortName>
+        </Campaign>
+    </Campaigns>
+    <AdditionalAttributes>
+        <AdditionalAttribute>
+            <Name>QAPERCENTGOODQUALITY</Name>
+            <Values>
+                <Value>22</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>QAPERCENTOTHERQUALITY</Name>
+            <Values>
+                <Value>13</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>QAPERCENTNOTPRODUCEDCLOUD</Name>
+            <Values>
+                <Value>24</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>QAPERCENTNOTPRODUCEDOTHER</Name>
+            <Values>
+                <Value>40</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>N_GRAN_POINTERS</Name>
+            <Values>
+                <Value>27</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>HORIZONTALTILENUMBER</Name>
+            <Values>
+                <Value>11</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>VERTICALTILENUMBER</Name>
+            <Values>
+                <Value>05</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>TileID</Name>
+            <Values>
+                <Value>51011005</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>QAFRACTIONGOODQUALITY</Name>
+            <Values>
+                <Value>0.2205309</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>QAFRACTIONOTHERQUALITY</Name>
+            <Values>
+                <Value>0.1337465</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>QAFRACTIONNOTPRODUCEDCLOUD</Name>
+            <Values>
+                <Value>0.2408628</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>QAFRACTIONNOTPRODUCEDOTHER</Name>
+            <Values>
+                <Value>0.4048597</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>CLOUD_CONTAMINATED_LST_SCREENED</Name>
+            <Values>
+                <Value>YES</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>identifier_product_doi</Name>
+            <Values>
+                <Value>10.5067/MODIS/MOD11A1.061</Value>
+            </Values>
+        </AdditionalAttribute>
+        <AdditionalAttribute>
+            <Name>identifier_product_doi_authority</Name>
+            <Values>
+                <Value>http://dx.doi.org</Value>
+            </Values>
+        </AdditionalAttribute>
+    </AdditionalAttributes>
+    <InputGranules>
+        <InputGranule>MOD03.A2021165.0305.061.2021165085522.hdf</InputGranule>
+        <InputGranule>MOD021KM.A2021165.0305.061.2021165132749.hdf</InputGranule>
+        <InputGranule>MOD35_L2.A2021165.0305.061.2021165132850.hdf</InputGranule>
+        <InputGranule>MOD07_L2.A2021165.0305.061.2021165132907.hdf</InputGranule>
+        <InputGranule>MOD03.A2021165.0310.061.2021165085523.hdf</InputGranule>
+        <InputGranule>MOD021KM.A2021165.0310.061.2021165132810.hdf</InputGranule>
+        <InputGranule>MOD35_L2.A2021165.0310.061.2021165133002.hdf</InputGranule>
+        <InputGranule>MOD07_L2.A2021165.0310.061.2021165133020.hdf</InputGranule>
+        <InputGranule>MOD03.A2021165.0450.061.2021165105336.hdf</InputGranule>
+        <InputGranule>MOD021KM.A2021165.0450.061.2021165132807.hdf</InputGranule>
+        <InputGranule>MOD35_L2.A2021165.0450.061.2021165133002.hdf</InputGranule>
+        <InputGranule>MOD07_L2.A2021165.0450.061.2021165133030.hdf</InputGranule>
+        <InputGranule>MOD03.A2021165.1510.061.2021165205506.hdf</InputGranule>
+        <InputGranule>MOD021KM.A2021165.1510.061.2021166014232.hdf</InputGranule>
+        <InputGranule>MOD35_L2.A2021165.1510.061.2021166014356.hdf</InputGranule>
+        <InputGranule>MOD10_L2.A2021165.1510.061.2021166014900.hdf</InputGranule>
+        <InputGranule>MOD07_L2.A2021165.1510.061.2021166014414.hdf</InputGranule>
+        <InputGranule>MOD03.A2021165.1645.061.2021165225951.hdf</InputGranule>
+        <InputGranule>MOD021KM.A2021165.1645.061.2021166014255.hdf</InputGranule>
+        <InputGranule>MOD35_L2.A2021165.1645.061.2021166014543.hdf</InputGranule>
+        <InputGranule>MOD10_L2.A2021165.1645.061.2021166015103.hdf</InputGranule>
+        <InputGranule>MOD07_L2.A2021165.1645.061.2021166014603.hdf</InputGranule>
+        <InputGranule>MOD03.A2021165.1650.061.2021165225946.hdf</InputGranule>
+        <InputGranule>MOD021KM.A2021165.1650.061.2021166014518.hdf</InputGranule>
+        <InputGranule>MOD35_L2.A2021165.1650.061.2021166014732.hdf</InputGranule>
+        <InputGranule>MOD10_L2.A2021165.1650.061.2021166015054.hdf</InputGranule>
+        <InputGranule>MOD07_L2.A2021165.1650.061.2021166014756.hdf</InputGranule>
+    </InputGranules>
+    <OnlineAccessURLs>
+        <OnlineAccessURL>
+            <URL>https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.1.jpg</URL>
+            <URLDescription>Download BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.1.jpg</URLDescription>
+        </OnlineAccessURL>
+        <OnlineAccessURL>
+            <URL>https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/MOD11A1.A2021165.h11v05.061.2021166091923.hdf</URL>
+            <URLDescription>Download MOD11A1.A2021165.h11v05.061.2021166091923.hdf</URLDescription>
+        </OnlineAccessURL>
+        <OnlineAccessURL>
+            <URL>https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.2.jpg</URL>
+            <URLDescription>Download BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.2.jpg</URLDescription>
+        </OnlineAccessURL>
+        <OnlineAccessURL>
+            <URL>https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/MOD11A1.A2021165.h11v05.061.2021166091923.cmr.xml</URL>
+            <URLDescription>Download MOD11A1.A2021165.h11v05.061.2021166091923.cmr.xml</URLDescription>
+        </OnlineAccessURL>
+        <OnlineAccessURL>
+            <URL>s3://lp-prod-public/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.1.jpg</URL>
+            <URLDescription>This link provides direct download access via S3 to the granule</URLDescription>
+        </OnlineAccessURL>
+        <OnlineAccessURL>
+            <URL>s3://lp-prod-protected/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/MOD11A1.A2021165.h11v05.061.2021166091923.hdf</URL>
+            <URLDescription>This link provides direct download access via S3 to the granule</URLDescription>
+        </OnlineAccessURL>
+        <OnlineAccessURL>
+            <URL>s3://lp-prod-public/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.2.jpg</URL>
+            <URLDescription>This link provides direct download access via S3 to the granule</URLDescription>
+        </OnlineAccessURL>
+        <OnlineAccessURL>
+            <URL>s3://lp-prod-protected/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/MOD11A1.A2021165.h11v05.061.2021166091923.cmr.xml</URL>
+            <URLDescription>This link provides direct download access via S3 to the granule</URLDescription>
+        </OnlineAccessURL>
+    </OnlineAccessURLs>
+    <OnlineResources>
+        <OnlineResource>
+            <URL>https://doi.org/10.5067/MODIS/MOD11A1.061</URL>
+            <Description>The Landing Page for this file may be accessed directly from this link</Description>
+            <Type>DOI</Type>
+            <MimeType>text/html</MimeType>
+        </OnlineResource>
+        <OnlineResource>
+            <URL>https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/MOD11A1.A2021165.h11v05.061.2021166091923.cmr.xml</URL>
+            <Description>Download MOD11A1.A2021165.h11v05.061.2021166091923.cmr.xml</Description>
+            <Type>EXTENDED METADATA</Type>
+        </OnlineResource>
+        <OnlineResource>
+            <URL>s3://lp-prod-protected/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/MOD11A1.A2021165.h11v05.061.2021166091923.cmr.xml</URL>
+            <Description>This link provides direct download access via S3 to the granule</Description>
+            <Type>EXTENDED METADATA</Type>
+        </OnlineResource>
+        <OnlineResource>
+            <URL>https://opendap.earthdata.nasa.gov/collections/C1748058432-LPCLOUD/granules/MOD11A1.A2021165.h11v05.061.2021166091923</URL>
+            <Description>OPeNDAP request URL</Description>
+            <Type>GET DATA : OPENDAP DATA</Type>
+        </OnlineResource>
+        <OnlineResource>
+            <URL>https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials</URL>
+            <Description>api endpoint to retrieve temporary credentials valid for same-region direct s3 access</Description>
+            <Type>VIEW RELATED INFORMATION</Type>
+        </OnlineResource>
+    </OnlineResources>
+    <DataFormat>HDF-EOS2</DataFormat>
+    <CloudCover>24</CloudCover>
+    <AssociatedBrowseImageUrls>
+        <ProviderBrowseUrl>
+            <URL>https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.1.jpg</URL>
+            <Description>Download BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.1.jpg</Description>
+        </ProviderBrowseUrl>
+        <ProviderBrowseUrl>
+            <URL>s3://lp-prod-public/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.1.jpg</URL>
+            <Description>This link provides direct download access via S3 to the granule</Description>
+        </ProviderBrowseUrl>
+        <ProviderBrowseUrl>
+            <URL>https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.2.jpg</URL>
+            <Description>Download BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.2.jpg</Description>
+        </ProviderBrowseUrl>
+        <ProviderBrowseUrl>
+            <URL>s3://lp-prod-public/MOD11A1.061/MOD11A1.A2021165.h11v05.061.2021166091923/BROWSE.MOD11A1.A2021165.h11v05.061.2021166091927.2.jpg</URL>
+            <Description>This link provides direct download access via S3 to the granule</Description>
+        </ProviderBrowseUrl>
+    </AssociatedBrowseImageUrls>
+</Granule>
